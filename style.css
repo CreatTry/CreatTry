@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }  
+  
+    /* ---- particles.js container ---- */ 
+    
+    #particles-js{ 
+    position:relative;
+    z-index:2;
+    background-color:#0d0f11; 
+    }
+    
+  
+  .header,.banner-section{
+    position:relative;
+    width:100%;
+  }
+  
+  .banner-section{
+      padding: 180px 0 100px 0;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      background-color: #060708;
+      background-image:url(img/background3.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+  }
+  
+  
+  .header-inner{
+    width:100%;
+    top:0;
+    z-index:44;
+    left:0;
+    position :fixed;
+  }
+  .rotate img{
+    -webkit-transition: -webkit-transform 1.1s ease-in-out;
+    transition: transform 1.1s ease-in-out;
+    height: 270px;
+    width: 270px;
+    }
+  .rotate img:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+  
+  
+  @media only screen and (max-width:992px){
+   .my-navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+  } 
+  }
+  
+  .navbar-brand img{
+    width:150px;
+    margin-right:20px;
+  }
+  
+  .nav-item .nav-link{
+      display:block;
+      font-size:14px;
+      color:white;
+      font-weight:500;
+      text-transform:capitalize;
+      text-decoration: none;
+      padding:6px 10px; 
+      transition:0.4s ease;	
+  }
+  
+  
+  canvas.particles-js-canvas-el {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index:1;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .banner-inner{
+    position:relative;
+    z-index:888;
+  }
+  
+  
+  .front-landing-text h1 {
+      font-size: 45px;
+      font-weight: 500;
+      color:white;
+      margin: 0;
+  }
+  
+  .front-landing-text h2 {
+      font-size: 24px;
+      color:white;
+      margin: 25px 0 33px 0;
+      font-weight: 400;
+  }
+  
+
+  
+  .form-inline .btn{
+   background-color:#cbeb15;
+   padding:4px 30px;
+   border-radius:2px;
+   color:rgb(12, 12, 2);
+  }
